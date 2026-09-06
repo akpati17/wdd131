@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,21 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>WDD 131 – Dynamic Web Fundamentals – Chijindu Akpati</title>
+
     <meta name="description"
         content="WDD 131 – Dynamic Web Fundamentals course page for Chijindu Akpati. Learn about web development, HTML, CSS, JavaScript, and my interests.">
 
     <meta name="author" content="Chijindu Akpati">
 
-    <title>WDD 131 – Dynamic Web Fundamentals – Chijindu Akpati</title>
-
     <link rel="stylesheet" href="styles/base.css">
 
     <script src="scripts/getdates.js" defer></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:wght@700&display=swap"
-        rel="stylesheet">
 </head>
 
 <body>
@@ -29,48 +23,45 @@
         <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
 
         <nav>
-            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-
-            <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
-
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
-                target="_blank">Scripture</a>
-
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a>
             <a href="#">Final Project</a>
         </nav>
     </header>
 
     <main>
-
         <h1>Chijindu Akpati</h1>
 
         <section class="card">
             <h2>About Me</h2>
 
-            <img src="images/profile.jpg" alt="Photo of Chijindu Akpati">
+            <div class="about-content">
+                <p>
+                    My name is Chijindu Akpati. I am a student studying Software Development.
+                    I am interested in web development and technology. I am currently learning
+                    HTML, CSS, and JavaScript in WDD 131.
+                </p>
 
-            <p>
-                My name is Chijindu Akpati. I am a student studying Software Development.
-                I am interested in web development and technology. I am currently learning
-                HTML, CSS, and JavaScript in WDD 131.
-            </p>
+                <img src="images/profile.jpg" alt="Photo of Chijindu Akpati">
+            </div>
 
             <p>
                 I enjoy learning new skills and building websites. My goal is to improve
                 my programming skills and become a professional software developer.
             </p>
-        </section>
 
-        <section class="card">
-            <h2>My Country</h2>
+            <h3>My Country</h3>
 
-            <img src="images/nigeria.jpg" alt="Landscape representing Nigeria">
+            <div class="location-content">
+                <img src="images/nigeria.jpg" alt="Landscape representing Nigeria">
 
-            <p>
-                Nigeria is a country in West Africa with a large population and many
-                different cultures, languages, and traditions. Lagos is one of its
-                largest and most important cities.
-            </p>
+                <p>
+                    Nigeria is a country in West Africa with a large population and many
+                    different cultures, languages, and traditions. Lagos is one of its
+                    largest and most important cities.
+                </p>
+            </div>
 
             <p>
                 Nigeria has many interesting places, foods, festivals, and natural
@@ -78,21 +69,27 @@
             </p>
         </section>
 
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+
+            <ul>
+                <li><a href="https://dev.to/">Dev.to Community</a></li>
+                <li><a href="https://smashingmagazine.com/">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+            </ul>
+        </section>
     </main>
 
     <footer>
-
         <p>
-            <span id="currentyear"></span>
-            Chijindu Akpati
-            - Lagos, Nigeria
+            &copy;<span id="currentyear"></span> Chijindu Akpati • Lagos, Nigeria
         </p>
 
         <p id="lastModified"></p>
-
     </footer>
 
 </body>
 
 </html>
-```
